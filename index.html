@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>MPHA - VideoJuegos</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row row-title">
+          <div class="col-xs-6 col-md-4">
+            <h1 class="alinear-derecha">MH</h1>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <img src="/img/logo.png" alt="" class="logo" />
+          </div>
+          <div class="col-xs-6 col-md-4"><h1>VideoJuegos</h1></div>
+        </div>
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown"
+                aria-controls="navbarNavDarkDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-center"
+                id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="navbar-brand">
+                    <a class="navbar-brand" href="index.html"
+                      >MH VideoJuegos</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="consolas.html">Consolas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="juegos.html"
+                      id="navbarDarkDropdownMenuLink"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Juegos
+                    </a>
+                    <ul
+                      class="dropdown-menu dropdown-menu-dark"
+                      aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="juegos.html#noticias">Noticias</a></li>
+                      <li>
+                        <a class="dropdown-item" href="juegos.html#personajes">Personajes</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="social-bar" id="socialBar">
+      <a href="https://www.facebook.com/" class="social-icon" target="_blank"><img src="vectores/Facebook.svg" alt=""></a>
+      <a href="https://twitter.com/?lang=es" class="social-icon" target="_blank"><img src="vectores/twitter.svg" alt=""></a>
+      <a href="https://www.instagram.com/" class="social-icon" target="_blank"><img src="vectores/instagram.svg" alt=""></a>
+      <a href="https://www.pinterest.es/" class="social-icon" target="_blank"><img src="vectores/Pinterest.svg" alt=""></a>
+  </div>
+
+    <main>
+      <div
+        id="carouselImagenesGaming"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="3000"
+        data-bs-pause="false">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselImagenesGaming"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselImagenesGaming"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselImagenesGaming"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselImagenesGaming"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselImagenesGaming"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Juega con amigos!</h5>
+              <p>Siempre es mas divertido competir con amigos.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VR</h5>
+              <p>Experimenta nuevas emociones con realidad aumentada.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Competitividad al maximo.</h5>
+              <p>
+                Utiliza mandos de ultima generacion para competir al maximo.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Noticias emocionantes.</h5>
+              <p>Ponte al tanto de las ultimas novedades.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/5.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Escoge tu consola favorita</h5>
+              <p>Escoge la consola que mas te guste.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselImagenesGaming"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselImagenesGaming"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="text-center text-justify">
+            <h4>Sobre nuestro sitio web</h4>
+            <p>
+              Encuentre las ultimas noticias e información sobre el mundo de los
+              videojuegos en nuestra pagina web.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <div class="row" >
+          <div>
+            <h1 class="text-center">Juegos Recomendados</h1>
+          </div>
+          <div class="col-md-2">
+            <img
+              class="imagen-juegos btn btn-primary width"
+              data-bs-toggle="modal"
+              data-bs-target="#diabloModal"
+              src="img/diabloIV.jpg "
+              alt="" />
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="diabloModal"
+              tabindex="-1"
+              aria-labelledby="diabloModal"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="diabloModa">Diablo IV</h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      La saga RPG ha vuelto a lo grande. Regresa con la clásica
+                      jugabilidad de visión isométrica, pero sorprende con sus
+                      nuevas novedades. No solo deberás matar a todo lo que esté
+                      cerca, sino que también tendrás que pensar cómo hacerlo
+                      adecuadamente, así como evitar las trampas de los
+                      escenarios. Los combates son desafiantes y los más
+                      espectaculares de toda la franquicia. A medida que
+                      avanzas, la acción se va incrementando todavía más. Por
+                      otro lado, el jugador tiene bastante libertad para
+                      personalizar a su héroe. Diablo IV está disponible para
+                      PC, PS5, PS4, Xbox Series X/S y Xbox One.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <img
+              src="img/metroid.jpg"
+              alt=""
+              class="imagen-juegos btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#metroidDialog" />
+            
+            <div
+              class="modal fade"
+              id="metroidDialog"
+              tabindex="-1"
+              aria-labelledby="metroidDialog"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="metrodDialog">
+                      Metroid Prime Remastered
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Una aventura de acción que tiene la esencia de esta
+                      franquicia. Hay plataformas y habilidades que se van
+                      adquiriendo a medida que vas avanzando. Sin embargo, la
+                      jugabilidad cambia radicalmente desde esta perspectiva en
+                      primera persona. Para conocer mejor la historia y el
+                      universo que plantea, lo recomendable es explorar y
+                      escanearlo todo. Metroid Prime Remastered está a la venta
+                      para Nintendo Switch.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <img
+              src="img/re4.jpg"
+              alt=""
+              class="imagen-juegos btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#re4Modal" />
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="re4Modal"
+              tabindex="-1"
+              aria-labelledby="re4Modal"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="re4Moal">
+                      Resident Evil 4 Remake
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Vuelve a acompañar a Leon Scott Kennedy para rescatar a la
+                      hija del presidente de Estados Unidos, quien ha sido
+                      secuestrada por una peligrosa secta. El apartado narrativo
+                      ha mejorado considerablemente respecto al juego original,
+                      ya que ha añadido nuevos diálogos que funcionan mucho
+                      mejor. No solo se supera notablemente a nivel gráfico,
+                      también destaca en su jugabilidad que consigue adaptar a
+                      2023 la esencia del título. Todo un ejemplo de cómo hay
+                      que hacer un buen remake. Asimismo, ofrece algunas escenas
+                      nuevas -aunque es cierto que quita algunas otras-. A
+                      diferencia de los tres primeros videojuegos de la
+                      franquicia, la cuarte parte apuesta más por la acción.
+                      Resident Evil 4 Remake se puede disfrutar en PC, PS5, PS4
+                      y Xbox Series X/S.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <img
+              src="img/turboOverkill.jpeg"
+              alt=""
+              class="imagen-juegos btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#turboModal" />
+            
+            <div
+              class="modal fade"
+              id="turboModal"
+              tabindex="-1"
+              aria-labelledby="turboModal"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="turboModa">
+                      Turbo Overkill
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Un shooter frenético, creativo y original. Su jugabilidad
+                      es similar a DOOM. Como jugador, tienes que disparar a
+                      todo lo que se te ponga por delante mientras intentas
+                      recibir el menor daño posible moviéndote por los
+                      escenarios. Hace una combinación perfecta entre
+                      jugabilidad divertida, un diseño artístico llamativo y una
+                      banda sonora que anima a cualquiera. Su mundo se siente
+                      psicodélico con tantas luces y colores. Turbo Overkill
+                      está para PC, PS5, PS4, Xbox Series X/S, Xbox One y
+                      Nintendo Switch.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <img
+              src="img/witcher.jpeg"
+              alt=""
+              class="imagen-juegos btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#witcherModal" />
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="witcherModal"
+              tabindex="-1"
+              aria-labelledby="witcherModal"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="witcherModa">
+                      The Witcher 3: Wild Hunt - Complete Edition
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      El 26 de enero de 2023 se lanzó una nueva edición física
+                      para PS5 y Xbox Series X/S de The Witcher 3: Wild Hunt -
+                      Complete Edition. Esta implementa nuevas mejoras visuales.
+                      Incluye el juego base, así como todas las expansiones y
+                      actualizaciones. Cabe mencionar que en formato digital ya
+                      estaba disponible desde diciembre de 2022 para todas las
+                      plataformas. La aventura como tal se puede jugar en PC,
+                      PS5, PS4, Xbox Series X/S, Xbox Ositch.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <img
+              src="img/zelda.jpg" 
+              alt="" 
+              class="imagen-juegos btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#zeldaModal" />
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="zeldaModal"
+              tabindex="-1"
+              aria-labelledby="zeldaModal"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="zeldaModa">
+                      The Legend of Zelda: Tears of the Kingdom
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Parecía que no se podía superar a Breath of the Wild, pero
+                      esta nueva entrega lo hizo. Aportó un mapa mucho más
+                      grande e inmenso, añadiendo los cielos y el mundo
+                      subterráneo. En este sentido, ha conseguido innovar por la
+                      exploración vertical. Además, esta secuela explora nuevas
+                      mecánicas que ofrecen infinitas posibilidades. Como puede
+                      ser la construcción, que permite al jugador resolver los
+                      puzles de una gran cantidad de formas diferentes y hasta
+                      crear vehículos; o retroceso, que retrocede en el tiempo
+                      algunos objetos. Asimismo, las físicas están
+                      considerablemente mejoradas. Un detalle importante por las
+                      posibilidades que hay para interaccionar con tu entorno.
+                      También hay una buena cantidad de monstruos nuevos. The
+                      Legend of Zelda: Tears of the Kingdom es exclusivo para
+                      Nintendo Switch.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="text-center">
+            <h1>Articulos mas vendidos.</h1>
+          </div>
+          <div class="col">
+            <h2>Nintendo Switch™ with Neon Blue and Neon Red Joy Con™</h2>
+            <img
+              src="img/switch1.jpg"
+              alt="nintendoswitch"
+              class="imagen-juegos" />
+            <p>
+              Juega en casa o sobre la marcha con un sistema. El sistema
+              Nintendo Switch™ está diseñado para ir donde quiera que lo hagas,
+              transformándose instantáneamente de una consola doméstica que
+              juegas en la televisión a un sistema portátil que puedes jugar en
+              cualquier lugar. Así que tienes más tiempo para jugar los juegos
+              que amas, como quieras.
+            </p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.amazon.com/-/es/Nintendo-SwitchTM-Neon-Blue-Joy%E2%80%91ConTM-Switch/dp/B0BFJWCYTL/ref=sr_1_1?crid=1CC5G95HXVSVQ&keywords=nintendo%2Bswitch&qid=1706495384&sprefix=nintendo%2Bs%2Caps%2C231&sr=8-1&th=1"
+              role="button"
+              >Comprar-294.99$</a
+            >
+          </div>
+          <div class="col">
+            <h2>Xbox Series X</h2>
+            <img src="img/seriesX.jpg" alt="seriesX" class="imagen-juegos" />
+            <p>
+              Presentamos Xbox Series X, la Xbox más rápida y potente que nunca.
+              Juega miles de títulos de cuatro generaciones de consolas: todos
+              los juegos se ven y juegan mejor en Xbox Series X. En el corazón
+              de la Serie X se encuentra la arquitectura Xbox Velocity, que
+              combina una SSD personalizada con software integrado para un juego
+              más rápido y optimizado con tiempos de carga significativamente
+              reducidos. Muévete sin problemas entre varios juegos en un
+              destello con un resumen rápido. Explora nuevos mundos ricos y
+              disfruta de la acción como nunca antes con los inigualables 12
+              Teraflops de potencia de procesamiento gráfico crudo. Disfruta de
+              juegos en 4K con hasta 120 fotogramas por segundo, sonido espacial
+              3D avanzado y mucho más.
+            </p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.amazon.com/-/es/Xbox-X/dp/B08H75RTZ8/ref=sr_1_1?crid=R5HE23RI4612&keywords=xbox%2Bseries%2Bx&qid=1706495855&sprefix=x%2Caps%2C151&sr=8-1&th=1"
+              role="button"
+              >Comprar-469$
+            </a>
+          </div>
+          <div class="col">
+            <h2>PlayStation®5 console (slim)</h2>
+            <img src="img/ps5.jpg" alt="ps5" class="imagen-juegos" />
+            <p>
+              La consola PS5 desata nuevas posibilidades de juego que nunca
+              anticipaste. Experimenta una carga ultrarrápida con un SSD de
+              ultra alta velocidad, una inmersión más profunda con soporte para
+              retroalimentación háptica, disparadores adaptativos y audio 3D*, y
+              una nueva generación de increíbles juegos de PlayStation Velocidad
+              de rayo: aproveche la potencia de una CPU, GPU y SSD
+              personalizadas con E/S integradas que reescriben las reglas de lo
+              que una consola PlayStation puede hacer.
+            </p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.amazon.com/-/es/PlayStation%C2%AE5-console-slim-PlayStation-5/dp/B0CL61F39H/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3CB9ST1JS998M&keywords=ps5&qid=1706495638&sprefix=ps5%2Caps%2C163&sr=8-1&th=1"
+              role="button"
+              >Comprar-499$</a
+            >
+          </div>
+          <div class="col">
+            <h2>Meta Quest 2</h2>
+            <img src="img/meta2.jpg" alt="metaQuest2" class="imagen-juegos" />
+            <p>
+              Explora un universo en expansión de más de 500 títulos en juegos,
+              fitness, social/multijugador y entretenimiento, incluyendo
+              lanzamientos exclusivos y experiencias de realidad virtual
+              totalmente únicas. Disfruta de una jugabilidad rápida y fluida y
+              gráficos inmersivos a medida que la acción de alta velocidad se
+              desarrolla a tu alrededor con un procesador rápido y gráficos
+              envolventes.
+            </p>
+            <a
+              class="btn btn-secondary"
+              href="https://www.amazon.com/-/es/Meta-Quest-All-One-Oculus-2/dp/B099VMT8VZ/ref=sr_1_2?crid=2F2AROBT0MISN&keywords=oculus%2Bquest%2B3&qid=1706495951&sprefix=oculus%2Bque%2Caps%2C182&sr=8-2&th=1"
+              role="button"
+              >Comprar-249$</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid text-center">
+        <div class="row">
+          <h2>Juego recomendado del Mes</h2>
+          <div class="col">
+            <h3>Baldur's Gate 3</h3>
+            <img src="img/baldurGate.jpg" alt="baldurGate" />
+            <p>
+              Reúne a tu grupo y regresa a los Reinos Olvidados en una historia
+              de compañerismo, traición, sacrificio, supervivencia y la
+              atracción de un poder absoluto. Unas misteriosas aptitudes
+              empiezan a surgir en tu interior por obra de un parásito de los
+              azotamentes que te han implantado en el cerebro. Resístete y
+              vuelve a la oscuridad contra sí misma o abraza la corrupción y
+              conviértete en el mal supremo. De manos de los creadores de
+              Divinity: Original Sin 2, llega un juego de rol para la nueva
+              generación de consolas, ambientado en el mundo de Dungeons &
+              Dragons.
+            </p>
+            <a
+              class="btn btn-secondary"
+              href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+              role="button"
+              >Steam</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid row-title text-white text-center">
+        <div class="row">
+          <div class="col">
+            <img src="img/logo.png" alt="logo" />
+            <p class="text-white">MPHA - Videojuegos</p>
+          </div>
+          <div class="col align-middle">
+            <h2>Enlaces</h2>
+            <a href="index.html" class="text-decoration-none">Inicio</a>
+            <a href="consolas.html" class="text-decoration-none">Consolas</a>
+            <a href="juegos.html" class="text-decoration-none">Juegos</a>
+          </div>
+          <div class="col align-middle">
+            <h1>Maria Paula Huertas Avila</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
