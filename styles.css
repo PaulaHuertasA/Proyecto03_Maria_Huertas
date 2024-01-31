@@ -1,4 +1,25 @@
-main
+body {
+  background-color: #f6f6f6;
+  font-family: 'Kanit', sans-serif;
+}
+h1{
+  font-family: 'Impact', sans-serif;
+  font-size: 35px; /* Cambia el tamaño del texto */
+  font-weight: bold; /* Hace que el texto sea más grueso */
+}
+h2{
+  font-family: 'Impact', sans-serif;
+      font-size: 30px;
+      font-weight: bold; 
+      color: #000000;
+    }
+
+    .texto-superpuesto {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: rgb(103, 102, 102);
+    }
 .logo {
   height: 100px;
   width: 200px;
